@@ -1,6 +1,6 @@
 import math
-from labb3.zad1 import to_table
-from labb3.zad3 import lagrange_interpolation, compare_results, to_chart
+from lab3.zad1 import to_table
+from lab3.zad3 import lagrange_interpolation, compare_results, to_chart
 
 
 def n_nodes_interpolation(min, max, n):

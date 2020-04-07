@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 import scipy.interpolate as interpolate
-from labb4.zad1 import to_table
+from lab4.zad1 import to_table
 
 
 def compare_results(min, max, points_number, function1, function2, function_name):

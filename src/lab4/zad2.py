@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 import math
-from labb4.zad1 import to_table
+from lab4.zad1 import to_table
 
 def hermite_interpolation_polynomial(x_values, y_values):
     n = len(x_values)

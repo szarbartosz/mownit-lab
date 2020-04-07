@@ -1,7 +1,7 @@
 import math
 import sympy as sp
 from tabulate import tabulate
-from labb3.zad1 import to_table
+from lab3.zad1 import to_table
 
 
 def lagrange_interpolation(x_values, y_values):

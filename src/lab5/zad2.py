@@ -1,7 +1,8 @@
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-from labb5.zad1 import to_table
+from lab5.zad1 import to_table
+
 
 def compare_charts(x_values, y_values, x_data, y_data, function_name):
     params = {'legend.fontsize': 'x-large',
@@ -18,6 +19,7 @@ def compare_charts(x_values, y_values, x_data, y_data, function_name):
     plt.xticks(rotation=90)
     plt.legend()
     plt.show()
+
 
 def python_approx(min, max, n, degree):
 

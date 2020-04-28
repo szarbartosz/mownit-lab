@@ -18,9 +18,9 @@ def compare(func, a, b, n, func_name):
       c = "None"
 
     print(f"f(x): {func_name}, interval: ({a}, {b})")
-    table = [["SciPy method", scipy_bisect, 0],
+    table = [["scipy method", scipy_bisect, 0],
            ["bisection method", c_bis, (abs(c_bis - scipy_bisect) / abs(scipy_bisect))],
-           ["bewton-Raphson method", c_new, (abs(c_new - scipy_bisect) / abs(scipy_bisect))],
+           ["newton-Raphson method", c_new, (abs(c_new - scipy_bisect) / abs(scipy_bisect))],
            ["secant method", c_eul, (abs(c_eul - scipy_bisect) / abs(scipy_bisect))]]
 
     print(tabulate(table, headers=["method", "root", "error"], tablefmt="fancy_grid"))

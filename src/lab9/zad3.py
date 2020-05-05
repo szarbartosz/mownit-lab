@@ -41,7 +41,7 @@ if __name__ == '__main__':
         gauss_pivoting.append(gauss_pivoting_time)
         size.append(n)
 
-    for i in range(69):
+    for i in range(100):
         f = open("file.txt", "a")
         f.write(f"matrix size: {size[i]} \t gauss elimination: {gauss[i]}[s] \t gauss elimination with pivoting: {gauss_pivoting[i]}[s]"'\n')
         f.close()

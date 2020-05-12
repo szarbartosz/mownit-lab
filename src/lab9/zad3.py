@@ -6,18 +6,18 @@ import matplotlib.pyplot as plt
 from lab9.zad1 import gauss_elimination, gauss_elimination_pivoting
 
 
-def randomVector(n):
+def random_vector(n):
     return np.random.rand(n)
 
 
-def randomMatrix(n):
+def random_matrix(n):
     return np.random.rand(n, n)
 
 
 def measure_time():
     n = randrange(100, 420)
-    A = randomMatrix(n).tolist()
-    B = randomVector(n).tolist()
+    A = random_matrix(n).tolist()
+    B = random_vector(n).tolist()
 
     start = time.time()
     gauss_elimination(copy.deepcopy(A), copy.deepcopy(B))
